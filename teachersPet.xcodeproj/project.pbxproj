@@ -15,6 +15,7 @@
 		9D27E39A1D540DC500EDB9E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D27E3981D540DC500EDB9E9 /* LaunchScreen.storyboard */; };
 		9D27E3A51D540DC500EDB9E9 /* teachersPetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D27E3A41D540DC500EDB9E9 /* teachersPetTests.swift */; };
 		9D27E3B01D540DC500EDB9E9 /* teachersPetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D27E3AF1D540DC500EDB9E9 /* teachersPetUITests.swift */; };
+		CFAA05851D54406100D29317 /* MasterViewControllerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAA05841D54406100D29317 /* MasterViewControllerTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		9D27E3AB1D540DC500EDB9E9 /* teachersPetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = teachersPetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D27E3AF1D540DC500EDB9E9 /* teachersPetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = teachersPetUITests.swift; sourceTree = "<group>"; };
 		9D27E3B11D540DC500EDB9E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFAA05841D54406100D29317 /* MasterViewControllerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewControllerTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				9D27E3981D540DC500EDB9E9 /* LaunchScreen.storyboard */,
 				9D27E39B1D540DC500EDB9E9 /* Info.plist */,
 				9D27E3931D540DC500EDB9E9 /* teachersPet.xcdatamodeld */,
+				CFAA05841D54406100D29317 /* MasterViewControllerTableViewController.swift */,
 			);
 			path = teachersPet;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			files = (
 				9D27E38F1D540DC500EDB9E9 /* ViewController.swift in Sources */,
 				9D27E3951D540DC500EDB9E9 /* teachersPet.xcdatamodeld in Sources */,
+				CFAA05851D54406100D29317 /* MasterViewControllerTableViewController.swift in Sources */,
 				9D27E38D1D540DC500EDB9E9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -495,6 +499,7 @@
 				9D27E3B61D540DC500EDB9E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9D27E3B71D540DC500EDB9E9 /* Build configuration list for PBXNativeTarget "teachersPetTests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +508,7 @@
 				9D27E3B91D540DC500EDB9E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9D27E3BA1D540DC500EDB9E9 /* Build configuration list for PBXNativeTarget "teachersPetUITests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +517,7 @@
 				9D27E3BC1D540DC500EDB9E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
