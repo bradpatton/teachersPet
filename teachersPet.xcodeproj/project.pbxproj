@@ -15,6 +15,10 @@
 		9D27E39A1D540DC500EDB9E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D27E3981D540DC500EDB9E9 /* LaunchScreen.storyboard */; };
 		9D27E3A51D540DC500EDB9E9 /* teachersPetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D27E3A41D540DC500EDB9E9 /* teachersPetTests.swift */; };
 		9D27E3B01D540DC500EDB9E9 /* teachersPetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D27E3AF1D540DC500EDB9E9 /* teachersPetUITests.swift */; };
+		9D27E3BE1D561CB600EDB9E9 /* SplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D27E3BD1D561CB600EDB9E9 /* SplitViewController.swift */; };
+		9D27E3C01D56252500EDB9E9 /* ClassesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D27E3BF1D56252500EDB9E9 /* ClassesViewController.swift */; };
+		9D27E3C41D5639BA00EDB9E9 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D27E3C31D5639BA00EDB9E9 /* Media.xcassets */; };
+		9D3B12E01D57956000852537 /* ClassesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3B12DF1D57956000852537 /* ClassesCollectionViewCell.swift */; };
 		CFAA05851D54406100D29317 /* MasterViewControllerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAA05841D54406100D29317 /* MasterViewControllerTableViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +54,10 @@
 		9D27E3AB1D540DC500EDB9E9 /* teachersPetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = teachersPetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D27E3AF1D540DC500EDB9E9 /* teachersPetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = teachersPetUITests.swift; sourceTree = "<group>"; };
 		9D27E3B11D540DC500EDB9E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D27E3BD1D561CB600EDB9E9 /* SplitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitViewController.swift; sourceTree = "<group>"; };
+		9D27E3BF1D56252500EDB9E9 /* ClassesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassesViewController.swift; sourceTree = "<group>"; };
+		9D27E3C31D5639BA00EDB9E9 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = ../Media.xcassets; sourceTree = "<group>"; };
+		9D3B12DF1D57956000852537 /* ClassesCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassesCollectionViewCell.swift; sourceTree = "<group>"; };
 		CFAA05841D54406100D29317 /* MasterViewControllerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewControllerTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -101,6 +109,7 @@
 		9D27E38B1D540DC400EDB9E9 /* teachersPet */ = {
 			isa = PBXGroup;
 			children = (
+				9D27E3C31D5639BA00EDB9E9 /* Media.xcassets */,
 				9D27E38C1D540DC500EDB9E9 /* AppDelegate.swift */,
 				9D27E38E1D540DC500EDB9E9 /* ViewController.swift */,
 				9D27E3901D540DC500EDB9E9 /* Main.storyboard */,
@@ -109,6 +118,9 @@
 				9D27E39B1D540DC500EDB9E9 /* Info.plist */,
 				9D27E3931D540DC500EDB9E9 /* teachersPet.xcdatamodeld */,
 				CFAA05841D54406100D29317 /* MasterViewControllerTableViewController.swift */,
+				9D27E3BD1D561CB600EDB9E9 /* SplitViewController.swift */,
+				9D27E3BF1D56252500EDB9E9 /* ClassesViewController.swift */,
+				9D3B12DF1D57956000852537 /* ClassesCollectionViewCell.swift */,
 			);
 			path = teachersPet;
 			sourceTree = "<group>";
@@ -238,6 +250,7 @@
 			files = (
 				9D27E39A1D540DC500EDB9E9 /* LaunchScreen.storyboard in Resources */,
 				9D27E3971D540DC500EDB9E9 /* Assets.xcassets in Resources */,
+				9D27E3C41D5639BA00EDB9E9 /* Media.xcassets in Resources */,
 				9D27E3921D540DC500EDB9E9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,8 +276,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D27E3BE1D561CB600EDB9E9 /* SplitViewController.swift in Sources */,
+				9D27E3C01D56252500EDB9E9 /* ClassesViewController.swift in Sources */,
 				9D27E38F1D540DC500EDB9E9 /* ViewController.swift in Sources */,
 				9D27E3951D540DC500EDB9E9 /* teachersPet.xcdatamodeld in Sources */,
+				9D3B12E01D57956000852537 /* ClassesCollectionViewCell.swift in Sources */,
 				CFAA05851D54406100D29317 /* MasterViewControllerTableViewController.swift in Sources */,
 				9D27E38D1D540DC500EDB9E9 /* AppDelegate.swift in Sources */,
 			);
