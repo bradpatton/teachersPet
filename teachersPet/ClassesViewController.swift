@@ -60,8 +60,7 @@ class ClassesViewController: UICollectionViewController {
         // Configure the cell
         let course = classes[indexPath.row]
         
-        cell.label.text =
-            course.valueForKey("classNameStr") as? String
+        cell!.textLabel!.text = course.valueForKey("classNameStr") as? String
         
     
     
