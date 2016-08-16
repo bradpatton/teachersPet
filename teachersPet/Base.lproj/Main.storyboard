@@ -84,14 +84,14 @@
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         </collectionViewFlowLayout>
                         <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" reuseIdentifier="Cell" id="HhF-k5-X1S" customClass="ClassesCollectionViewCell" customModule="teachersPet" customModuleProvider="target">
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" restorationIdentifier="Cell" reuseIdentifier="Cell" id="HhF-k5-X1S" customClass="ClassesCollectionViewCell" customModule="teachersPet" customModuleProvider="target">
                                 <rect key="frame" x="151.5" y="0.0" width="297" height="305"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                     <rect key="frame" x="0.0" y="0.0" width="297" height="305"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kaA-hv-UVP">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kaA-hv-UVP">
                                             <rect key="frame" x="28" y="70" width="240" height="128"/>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g7d-iW-r2S">
@@ -104,6 +104,11 @@
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </view>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailingMargin" secondItem="kaA-hv-UVP" secondAttribute="trailing" constant="5" id="3Yb-MW-EzH"/>
+                                    <constraint firstItem="kaA-hv-UVP" firstAttribute="top" secondItem="HhF-k5-X1S" secondAttribute="topMargin" constant="5" id="lcD-Yd-0FV"/>
+                                    <constraint firstItem="kaA-hv-UVP" firstAttribute="leading" secondItem="HhF-k5-X1S" secondAttribute="leadingMargin" constant="5" id="ppE-6a-nuZ"/>
+                                </constraints>
                                 <size key="customSize" width="297" height="305"/>
                                 <connections>
                                     <outlet property="cellImage" destination="kaA-hv-UVP" id="02y-bH-rWt"/>

@@ -9,7 +9,7 @@
 import UIKit
 import CoreData
 
-private let reuseIdentifier = "Cell"
+
 
 class ClassesViewController: UICollectionViewController {
 
@@ -22,7 +22,7 @@ class ClassesViewController: UICollectionViewController {
         // self.clearsSelectionOnViewWillAppear = false
 
         // Register cell classes
-        self.collectionView!.registerClass(UICollectionViewCell.self, forCellWithReuseIdentifier: reuseIdentifier)
+        self.collectionView!.registerClass(UICollectionViewCell.self, forCellWithReuseIdentifier: "Cell")
 
         // Do any additional setup after loading the view.
     }
@@ -52,19 +52,20 @@ class ClassesViewController: UICollectionViewController {
 
     override func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of items
-        return classes.count + 1
+        return 20
     }
 
     override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCellWithReuseIdentifier("Cell", forIndexPath: indexPath)
-        // Configure the cell
-        let course = classes[indexPath.row]
         
-        //cell!.textLabel!.text = course.valueForKey("classNameStr") as? String
+        let cell = collectionView.dequeueReusableCellWithReuseIdentifier("Cell", forIndexPath: indexPath) //as! ClassesCollectionViewCell
+        //2
+        //let flickrPhoto = UIImage(contentsOfFile: "Bookmark")
+        cell.backgroundColor = UIColor.blackColor()
+        //3
+        //cell.cellImage.image = flickrPhoto
         
-    
-    
         return cell
+        
     }
 
     // MARK: UICollectionViewDelegate
@@ -97,5 +98,6 @@ class ClassesViewController: UICollectionViewController {
     
     }
     */
-
 }
+    
+
