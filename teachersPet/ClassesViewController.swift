@@ -9,11 +9,12 @@
 import UIKit
 import CoreData
 
-private let reuseIdentifier = "Cell"
+
 
 class ClassesViewController: UICollectionViewController {
-
-   var classes = [NSManagedObject]()
+private let reuseIdentifier = "Cell"
+    var classes = [NSManagedObject]()
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -58,11 +59,13 @@ class ClassesViewController: UICollectionViewController {
     override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier("Cell", forIndexPath: indexPath)
         // Configure the cell
-        let course = classes[indexPath.row]
+        
+        
+        //let course = classes[indexPath.row]
+        
         
         //cell!.textLabel!.text = course.valueForKey("classNameStr") as? String
         
-    
     
         return cell
     }

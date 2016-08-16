@@ -16,4 +16,6 @@ class ClassesCollectionViewCell: UICollectionViewCell {
     
     @IBOutlet weak var textLabel: UILabel!
     
+    
+    
 }
