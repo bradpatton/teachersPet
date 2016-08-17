@@ -51,7 +51,7 @@ class ClassesViewController: UICollectionViewController {
 
 
     override func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of items
+        //// #warning Incomplete implementation, return the number of items
         return 20
     }
 
